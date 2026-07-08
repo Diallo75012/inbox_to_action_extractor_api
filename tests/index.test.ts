@@ -134,6 +134,7 @@ test("GET /discover is protected, discoverable, and does not count usage", async
   const body = await res.json() as Record<string, any>;
   assert.equal(body.endpoint, "/v1/inbox-to-action");
   assert.deepEqual(body.required_headers, ["X-RapidAPI-Proxy-Secret", "X-RapidAPI-User"]);
+  assert.equal(body.routes.execution, "POST /v1/inbox-to-action is protected, counts usage, and extracts inbox actions from the request body.");
   assert.equal(body.routes.pingme, "GET /pingme is public for RapidAPI backend checks and does not count usage.");
   assert.equal(body.routes.health, "GET /health is protected and does not count usage.");
   assert.equal(body.routes.discover, "GET /discover is protected, does not count usage, and describes this API for AI agents.");

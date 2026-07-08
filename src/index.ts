@@ -38,6 +38,7 @@ function buildDiscoveryDocument() {
       calendar: APP_CONFIG.maxCalendarItems
     },
     routes: {
+      execution: `POST ${APP_CONFIG.endpoint} is protected, counts usage, and extracts inbox actions from the request body.`,
       pingme: "GET /pingme is public for RapidAPI backend checks and does not count usage.",
       health: "GET /health is protected and does not count usage.",
       discover: "GET /discover is protected, does not count usage, and describes this API for AI agents."
