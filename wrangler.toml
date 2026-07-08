@@ -1,7 +1,7 @@
 name = "inbox-to-action-extractor-api"
 main = "src/index.ts"
 preview_urls = false
-compatibility_date = "2026-06-30"
+compatibility_date = "2026-06-19"
 
 [[kv_namespaces]]
 binding = "CACHE_KV_INBOX_TO_ACTION_EXTRACTOR_API"
