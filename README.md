@@ -1,7 +1,6 @@
 # Inbox to Action Extractor API
 ## RapidAPI Request Counting
 
-
 A Cloudflare Worker API that turns raw email text into a stable JSON action plan for automation tools, AI agents, support teams, and operators.
 
 The previous Flask/web UI/provider-storage application has been simplified into a RapidAPI-ready Worker API with one protected product endpoint and constants-first configuration.
