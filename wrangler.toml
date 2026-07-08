@@ -1,0 +1,17 @@
+name = "inbox-to-action-extractor-api"
+main = "src/index.ts"
+preview_urls = false
+compatibility_date = "2026-06-30"
+
+[[kv_namespaces]]
+binding = "CACHE_KV_INBOX_TO_ACTION_EXTRACTOR_API"
+id = "a0542105e9794ee284bcd8cd9f737b76"
+
+[ai]
+binding = "AI"
+
+[vars]
+# APP_ENV = "dev"
+APP_ENV = "production-08072026-ai-enabled-true-cache-also"
+AI_ENABLED = "true"
+CACHE_ENABLED = "true"

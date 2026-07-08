@@ -1,0 +1,5 @@
+RAPIDAPI_PROXY_SECRET=replace-with-local-secret
+AI_ENABLED=true
+AI_MODEL_PRIMARY=@cf/qwen/qwen3-30b-a3b-fp8
+AI_MODEL_FALLBACK_1=@cf/openai/gpt-oss-20b
+AI_MODEL_FALLBACK_2=@cf/meta/llama-3.3-70b-instruct-fp8-fast
